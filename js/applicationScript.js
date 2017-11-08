@@ -74,7 +74,7 @@ var callMicroservice = function(){
   //Additional own javascript 
     if(Object.keys(data).length > 0){
 
-	    $('# id of 1st radio button').parent().contents().last()[0].textContent=data.answerA;
+	    $('#button_answerA').parent().contents().last()[0].textContent=data.answerA;
 
 	    $('# id of 2th radio button').parent().contents().last()[0].textContent=data.answerB;
 
