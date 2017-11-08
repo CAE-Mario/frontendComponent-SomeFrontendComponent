@@ -82,7 +82,7 @@ if(Object.keys(data).length > 0){
 
     }else{
  
-       $("# id of the question").text("Quiz completed thank you!");
+       $("#p_e2285").text("Quiz completed thank you!");
  
        $('label').hide();
 
