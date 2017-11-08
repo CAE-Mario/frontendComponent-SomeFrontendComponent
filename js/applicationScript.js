@@ -80,7 +80,7 @@ var callMicroservice = function(){
 
 	    $('#button_answerC').parent().contents().last()[0].textContent=data.answerC;
 
-	    $('# id of 4th radio button').parent().contents().last()[0].textContent=data.answerD;
+	    $('#button_answerD').parent().contents().last()[0].textContent=data.answerD;
 
 	    $('# id of the video').attr('src',data.videolink);
 	
