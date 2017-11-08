@@ -71,30 +71,7 @@ var callMicroservice = function(){
     console.log(error);
   });
 
-  //Additional own javascript 
-    if(Object.keys(data).length > 0){
-
-	    $('#button_answerA').parent().contents().last()[0].textContent=data.answerA;
-
-	    $('#button_answerB').parent().contents().last()[0].textContent=data.answerB;
-
-	    $('#button_answerC').parent().contents().last()[0].textContent=data.answerC;
-
-	    $('#button_answerD').parent().contents().last()[0].textContent=data.answerD;
-
-	    $('# id of the video').attr('src',data.videolink);
-	
-    	    $("# id of the question").text(data.question);
-
-    }else{
- 
-       $("# id of the question").text("Quiz completed thank you!");
- 
-       $('label').hide();
-
-       $('button').hide();
- 
-   }  
+  //Additional own javascript
    
 
 
