@@ -63,7 +63,7 @@ var callMicroservice = function(){
 
 //end variable declaration
 
-  client.sendRequest("GET", videoquiz/getQuiz, "", "", {}, false,
+  client.sendRequest("GET", "videoQuiz/getQuiz", "", "", {}, false,
   function(data, type) {
     console.log(data); 
 if(Object.keys(data).length > 0){
@@ -78,7 +78,7 @@ if(Object.keys(data).length > 0){
 
 	    $('#iframe_851fb').attr('src',data.videolink);
 	
-    	    $("# id of the question").text(data.question);
+    	    $("#p_e2285").text(data.question);
 
     }else{
  
