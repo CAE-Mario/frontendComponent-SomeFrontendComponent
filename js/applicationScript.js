@@ -50,7 +50,7 @@ var init = function() {
   })
 window.counter = 0;
 
-cal(); //name of the Functon defined in the Model
+callMicroservice(); //name of the Functon defined in the Model
 
 
 
