@@ -48,6 +48,10 @@ var init = function() {
     //end parameter initiation
     callMicroservice();
   })
+window.counter = 0;
+
+nextQuiz(); //name of the Functon defined in the Model
+
 
 
 }
