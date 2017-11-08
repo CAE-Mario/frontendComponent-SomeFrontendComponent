@@ -67,7 +67,8 @@ var callMicroservice = function(){
     console.log(error);
   });
 
-  //Additional own javascript
+  //Additional own javascript 
+
 
 }
 
