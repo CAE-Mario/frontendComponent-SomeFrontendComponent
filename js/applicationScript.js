@@ -63,7 +63,7 @@ var callMicroservice = function(){
 window.counter++;
 //end variable declaration
 
-  client.sendRequest("GET", "videoQuiz/getQuiz", "", "", {}, false,
+  client.sendRequest("GET", "videoQuiz/getQuiz/" + window.counter, "", "", {}, false,
   function(data, type) {
     console.log(data); 
 if(Object.keys(data).length > 0){
