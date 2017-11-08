@@ -60,7 +60,7 @@ callMicroservice(); //name of the Functon defined in the Model
 var callMicroservice = function(){
 
 //start variable declaration
-
+window.counter++;
 //end variable declaration
 
   client.sendRequest("GET", "videoQuiz/getQuiz", "", "", {}, false,
