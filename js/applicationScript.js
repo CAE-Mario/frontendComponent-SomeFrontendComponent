@@ -50,7 +50,7 @@ var init = function() {
   })
 window.counter = 0;
 
-nextQuiz(); //name of the Functon defined in the Model
+cal(); //name of the Functon defined in the Model
 
 
 
@@ -76,7 +76,7 @@ if(Object.keys(data).length > 0){
 
 	    $('#button_answerD').parent().contents().last()[0].textContent=data.answerD;
 
-	    $('# id of the video').attr('src',data.videolink);
+	    $('#iframe_851fb').attr('src',data.videolink);
 	
     	    $("# id of the question").text(data.question);
 
