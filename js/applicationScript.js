@@ -76,9 +76,9 @@ var callMicroservice = function(){
 
 	    $('#button_answerA').parent().contents().last()[0].textContent=data.answerA;
 
-	    $('# id of 2th radio button').parent().contents().last()[0].textContent=data.answerB;
+	    $('#button_answerB').parent().contents().last()[0].textContent=data.answerB;
 
-	    $('# id of 3th radio button').parent().contents().last()[0].textContent=data.answerC;
+	    $('#button_answerC').parent().contents().last()[0].textContent=data.answerC;
 
 	    $('# id of 4th radio button').parent().contents().last()[0].textContent=data.answerD;
 
