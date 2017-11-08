@@ -68,13 +68,13 @@ var callMicroservice = function(){
     console.log(data); 
 if(Object.keys(data).length > 0){
 
-	    $('#button_answerA').parent().contents().last()[0].textContent=data.answerA;
+	    $('#radio_answerA').parent().contents().last()[0].textContent=data.answerA;
 
-	    $('#button_answerB').parent().contents().last()[0].textContent=data.answerB;
+	    $('#radio_answerB').parent().contents().last()[0].textContent=data.answerB;
 
-	    $('#button_answerC').parent().contents().last()[0].textContent=data.answerC;
+	    $('#radio_answerC').parent().contents().last()[0].textContent=data.answerC;
 
-	    $('#button_answerD').parent().contents().last()[0].textContent=data.answerD;
+	    $('#radio_answerD').parent().contents().last()[0].textContent=data.answerD;
 
 	    $('#iframe_851fb').attr('src',data.videolink);
 	
